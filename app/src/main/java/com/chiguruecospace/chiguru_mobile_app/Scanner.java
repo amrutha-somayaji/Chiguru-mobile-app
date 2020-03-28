@@ -61,6 +61,10 @@ public class Scanner extends AppCompatActivity implements ZXingScannerView.Resul
     @Override
     public void handleResult(Result rawResult) {
         //Here we can receive rawResult
-        txtResult.setText(rawResult.getText());
+        String qrresult;
+        qrresult = rawResult.getText();
+        txtResult.setText(qrresult);
+
+
     }
 }

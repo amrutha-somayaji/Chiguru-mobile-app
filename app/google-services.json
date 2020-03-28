@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "449053670013",
+    "firebase_url": "https://chiguru-mobile-app.firebaseio.com",
+    "project_id": "chiguru-mobile-app",
+    "storage_bucket": "chiguru-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449053670013:android:1c74de2ed5c26914b20f14",
+        "android_client_info": {
+          "package_name": "com.chiguruecospace.chiguru_mobile_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449053670013-l9uh57gp12ubec1vuljpj7n874u4qumi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4997NBr7p30tZV2QNH5G1OUdpf4DnjDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449053670013-l9uh57gp12ubec1vuljpj7n874u4qumi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
