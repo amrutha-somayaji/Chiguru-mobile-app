@@ -1,15 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f802860f89bf0cfcd5134c69b9c8a164/jetified-navigation-ui-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/aeb78aaf12926810b940dcc273431a57/navigation-fragment-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/e694a7e2aff166e32bb925c16729a19b/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f90585b959bf110b56a69006952efa2d/zxing-1.9.13/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/9ed0ab1c9990a6761613e4cf1e61b56d/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -27,6 +31,7 @@ MERGED from [androidx.customview:customview:1.0.0] /home/ritudeshpande/.gradle/c
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f4a13a33734b6c4f6b085128e7a0ff7b/navigation-common-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.1] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -42,31 +47,49 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ritudeshpande/.grad
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:3:5-53
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:6:5-59
+	android:name
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:7:19-67
 application
-ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:9:5-27:19
+MERGED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/e694a7e2aff166e32bb925c16729a19b/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/e694a7e2aff166e32bb925c16729a19b/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f90585b959bf110b56a69006952efa2d/zxing-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f90585b959bf110b56a69006952efa2d/zxing-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/9ed0ab1c9990a6761613e4cf1e61b56d/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/9ed0ab1c9990a6761613e4cf1e61b56d/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [androidx.core:core:1.0.1] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
@@ -76,41 +99,47 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/ritudeshpande/.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.chiguruecospace.chiguru_mobile_app.Scanner
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:16:9-54
+	android:name
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:16:19-42
 activity#com.chiguruecospace.chiguru_mobile_app.MainActivity
-ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:12:9-21:20
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:17:9-26:20
 	android:label
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:14:13-45
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:19:13-45
 	android:theme
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:15:13-56
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f802860f89bf0cfcd5134c69b9c8a164/jetified-navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f802860f89bf0cfcd5134c69b9c8a164/jetified-navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.android.material:material:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:20:5-44
@@ -121,6 +150,12 @@ MERGED from [androidx.navigation:navigation-fragment:2.0.0] /home/ritudeshpande/
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/aeb78aaf12926810b940dcc273431a57/navigation-fragment-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/e694a7e2aff166e32bb925c16729a19b/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/e694a7e2aff166e32bb925c16729a19b/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f90585b959bf110b56a69006952efa2d/zxing-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f90585b959bf110b56a69006952efa2d/zxing-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/9ed0ab1c9990a6761613e4cf1e61b56d/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/9ed0ab1c9990a6761613e4cf1e61b56d/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
@@ -155,6 +190,8 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ritud
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f4a13a33734b6c4f6b085128e7a0ff7b/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/f4a13a33734b6c4f6b085128e7a0ff7b/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.1] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.1] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
@@ -195,6 +232,12 @@ INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 		ADDED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ritudeshpande/AndroidStudioProjects/Chigurumobileapp/app/src/main/AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/73489ecc7ff1f015846f08642a61b583/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/ritudeshpande/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
 	android:authorities
