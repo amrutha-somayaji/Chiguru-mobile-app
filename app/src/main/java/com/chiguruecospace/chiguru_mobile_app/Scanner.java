@@ -1,11 +1,12 @@
 package com.chiguruecospace.chiguru_mobile_app;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.zxing.Result;
 import com.karumi.dexter.Dexter;
@@ -64,7 +65,9 @@ public class Scanner extends AppCompatActivity implements ZXingScannerView.Resul
         String qrresult;
         qrresult = rawResult.getText();
         txtResult.setText(qrresult);
-
+        Intent intent = new Intent(Scanner.this,ScannedItemDisplay.class);
+        intent.putExtra("QR", qrresult);
+        startActivity(intent);
 
     }
 }
