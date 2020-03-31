@@ -3,6 +3,7 @@ package com.chiguruecospace.chiguru_mobile_app;
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,10 +21,16 @@ import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class Scanner extends AppCompatActivity implements ZXingScannerView.ResultHandler {
 
-    public static final String QR_SCAN_EXTRA = "Scanner.qr_scan_text";
-
     private ZXingScannerView scannerView;
     private TextView txtResult;
+    private static String QRdata = "";
+
+    public static String getQRdata() {
+
+        return QRdata;
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,10 +71,11 @@ public class Scanner extends AppCompatActivity implements ZXingScannerView.Resul
     @Override
     public void handleResult(Result rawResult) {
         //Here we can receive rawResult
-        String qrtext = rawResult.getText().toString();
+        String qrtext = rawResult.getText().toString();;
         txtResult.setText(rawResult.getText());
-        Intent intent = new Intent(Scanner.this,ScannedItemDisplay.class);
-        intent.putExtra(QR_SCAN_EXTRA,qrtext);
-        startActivity(intent);
+
+        QRdata = qrtext;
+
+        startActivity(new Intent(Scanner.this,ScannedItemDisplay.class));
     }
 }

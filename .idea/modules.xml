@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chiguru-mobile-app.iml" filepath="$PROJECT_DIR$/Chiguru-mobile-app.iml" group="Chiguru-mobile-app" />
+      <module fileurl="file://$PROJECT_DIR$/app/Chiguru-mobile-app-app.iml" filepath="$PROJECT_DIR$/app/Chiguru-mobile-app-app.iml" group="Chiguru-mobile-app/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Chiguru-mobile-app/app" />
     </modules>
   </component>
