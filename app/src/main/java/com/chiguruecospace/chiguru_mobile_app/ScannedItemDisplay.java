@@ -1,5 +1,6 @@
 package com.chiguruecospace.chiguru_mobile_app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -22,9 +23,9 @@ public class ScannedItemDisplay extends AppCompatActivity {
 
     private TextView textViewData;
 
-    //private Intent intentqr = getIntent();
-    //private String QRRESULT = intentqr.getStringExtra("QR");
-    private String QRRESULT = "FnRwMcATyyOPZpO0s429";
+    Intent intent = getIntent();
+    private String QRRESULT = intent.getStringExtra(Scanner.QR_SCAN_EXTRA);
+    //private String QRRESULT = "FnRwMcATyyOPZpO0s429";
 
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     String path = "items/"+QRRESULT;

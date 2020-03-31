@@ -20,6 +20,8 @@ import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class Scanner extends AppCompatActivity implements ZXingScannerView.ResultHandler {
 
+    public static final String QR_SCAN_EXTRA = "Scanner.qr_scan_text";
+
     private ZXingScannerView scannerView;
     private TextView txtResult;
     @Override
@@ -62,12 +64,10 @@ public class Scanner extends AppCompatActivity implements ZXingScannerView.Resul
     @Override
     public void handleResult(Result rawResult) {
         //Here we can receive rawResult
-        String qrresult;
-        qrresult = rawResult.getText();
-        txtResult.setText(qrresult);
+        String qrtext = rawResult.getText().toString();
+        txtResult.setText(rawResult.getText());
         Intent intent = new Intent(Scanner.this,ScannedItemDisplay.class);
-        intent.putExtra("QR", qrresult);
+        intent.putExtra(QR_SCAN_EXTRA,qrtext);
         startActivity(intent);
-
     }
 }

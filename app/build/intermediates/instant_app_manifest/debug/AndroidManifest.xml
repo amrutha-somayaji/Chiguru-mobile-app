@@ -33,7 +33,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ScannedItemDisplay" />
+        <activity
+            android:name="com.chiguruecospace.chiguru_mobile_app.ScannedItemDisplay"
+            android:parentActivityName="com.chiguruecospace.chiguru_mobile_app.Scanner" />
         <activity android:name="com.chiguruecospace.chiguru_mobile_app.Scanner" />
         <activity
             android:name="com.chiguruecospace.chiguru_mobile_app.MainActivity"
