@@ -42,7 +42,7 @@ public class ScannedItemDisplay extends AppCompatActivity {
         setContentView(R.layout.scanned_item_display);
         textViewData = findViewById(R.id.textView2);
         loadNote();
-    }
+
 
     public void loadNote() {
 
