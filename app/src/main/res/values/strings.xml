@@ -2,8 +2,8 @@
     <string name="app_name">Chiguru-mobile-app</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">Chiguru Ecospace Application</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Account Settings</string>
 
@@ -30,4 +30,5 @@
     <string name="eventdesc">Description</string>
     <string name="eventdatelabel">"Date: "</string>
     <string name="eventdate">11/1/19</string>
+    <string name="username">Username</string>
 </resources>

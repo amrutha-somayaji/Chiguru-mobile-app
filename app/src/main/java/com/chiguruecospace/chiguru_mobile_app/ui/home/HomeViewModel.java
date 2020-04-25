@@ -1,42 +1,40 @@
 package com.chiguruecospace.chiguru_mobile_app.ui.home;
 
-
-
 public class HomeViewModel{
 
-    public String title;
-    public String desc;
-    public String imagepath;
-
-    public HomeViewModel(){}
-
-    public HomeViewModel(String title, String desc, String imagepath) {
-        this.title = title;
-        this.desc = desc;
-        this.imagepath = imagepath;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
+    private String Description;
+    private String Title;
+    private String Imagepath;
 
     public String getImagepath() {
-        return imagepath;
+        return Imagepath;
     }
 
     public void setImagepath(String imagepath) {
-        this.imagepath = imagepath;
+        Imagepath = imagepath;
     }
+
+    public void setDescription(String description) {
+        Description = description;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
+    }
+
+    public String getDescription() {
+        return Description;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public HomeViewModel(){}
+
+    public HomeViewModel(String title, String desc) {
+        this.Title = title;
+        this.Description = desc;
+    }
+
 }

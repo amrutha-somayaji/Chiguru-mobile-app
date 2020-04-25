@@ -41,7 +41,7 @@ public class HomeFragment extends Fragment {
         eventlist = new ArrayList<>();
         eventslistview = root.findViewById(R.id.eventslist);
 
-        eventRecyclerAdapter = new EventRecyclerAdapter(eventlist);
+        eventRecyclerAdapter = new EventRecyclerAdapter(this.getActivity(), eventlist);
         eventslistview.setLayoutManager(new LinearLayoutManager(getActivity()));
         eventslistview.setAdapter(eventRecyclerAdapter);
 

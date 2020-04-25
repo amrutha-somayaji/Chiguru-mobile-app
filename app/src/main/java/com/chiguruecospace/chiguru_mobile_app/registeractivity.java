@@ -14,16 +14,26 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
-public class registeractivity extends AppCompatActivity {
+import java.util.HashMap;
+import java.util.Map;
+
+public class  registeractivity extends AppCompatActivity {
 
 
     private FirebaseAuth mAuth;
+    private FirebaseFirestore db;
 
+    private EditText regusername;
     private EditText regemailtext;
     private EditText regpasswordtext;
     private EditText confirmpasswordtext;
@@ -38,7 +48,9 @@ public class registeractivity extends AppCompatActivity {
 
 
         mAuth = FirebaseAuth.getInstance();
+        db = FirebaseFirestore.getInstance();
 
+        regusername = (EditText) findViewById(R.id.newnametext);
         regemailtext = (EditText) findViewById(R.id.newemailtext);
         regpasswordtext = (EditText) findViewById(R.id.newpasstext);
         confirmpasswordtext = (EditText) findViewById(R.id.confirmpass);
@@ -49,7 +61,8 @@ public class registeractivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String email  = regemailtext.getText().toString();
+                final String username = regusername.getText().toString();
+                final String email  = regemailtext.getText().toString();
                 String password  = regpasswordtext.getText().toString();
                 String confirm = confirmpasswordtext.getText().toString();
 
@@ -64,8 +77,31 @@ public class registeractivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
 
-                                    startActivity(new Intent(registeractivity.this,MainActivity.class));
-                                    finish();
+                                    User user = new User(username, email);
+                                    final String userUID = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+                                    Map<String, Object> map = new HashMap<>();
+                                    map.put("Username", user.username);
+                                    map.put("Email", user.email);
+
+                                    db.collection("users").document(userUID).set(map).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void aVoid) {
+
+                                            Toast.makeText(registeractivity.this, "Registration Successful!", Toast.LENGTH_SHORT).show();
+                                            startActivity(new Intent(registeractivity.this,MainActivity.class));
+                                            finish();
+
+                                        }
+                                    }).addOnFailureListener(new OnFailureListener() {
+                                        @Override
+                                        public void onFailure(@NonNull Exception e) {
+
+                                            Toast.makeText(registeractivity.this, ""+e, Toast.LENGTH_SHORT).show();
+
+                                        }
+                                    });
+
 
                                 }else{
 

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8d1bc7e6c02e2985b97177e18e0fcee7/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/db7b73e6a038ea6fc17d2b8f0e9b33e8/navigation-ui-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
@@ -16,7 +16,10 @@ MERGED from [com.google.firebase:firebase-analytics:17.2.2] /home/captainspockea
 MERGED from [com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:17:1-42:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/a9e48127fe754d004bae01689b447ea7/jetified-zxing-1.9.13/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/80b69e0281975f7e9accaab0f9198800/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/7e11ac1883f9e27592a377296b09eec8/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/78d35203614433f57bd71fa2fd607863/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:17:1-36:12
@@ -34,8 +37,6 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/captainspo
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/a481f1d35c4d4a933182b444857cab5a/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/530cf519bd2690ba125c7365bd4345e5/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/80b69e0281975f7e9accaab0f9198800/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/4759d6db3bb84ba21f8103c1b21ff06a/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d904065618bbe6e97aac1facdbac74f6/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f783bc71a7f6b8ff736b6c5aa7735a41/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -44,6 +45,7 @@ MERGED from [androidx.navigation:navigation-runtime:2.0.0] /home/captainspockear
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dd6e81403769a15935cf91e15427e1b5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/301ce5d37c89d79e27dc476d260ff48b/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/455a0fd4d87b584763eae807af5c2489/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3edfbc7b78ed5b8b0b6ccffd1386d8d8/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/33987a6c2abb97d3a5dc8363aa39ad35/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/ec2ff2d2f35f5ce21d8f3a2cd566b74c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/b2e94776b37df79ca1eaded445ac0df8/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -53,7 +55,6 @@ MERGED from [androidx.customview:customview:1.0.0] /home/captainspockears/.gradl
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/74a949c57b303ec0823b0ea9d5439f22/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/19851895a64cdce23bed4e3d01b0894b/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0f70aed076f8f999448e0895dbc3a7a6/navigation-common-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3edfbc7b78ed5b8b0b6ccffd1386d8d8/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3200ca6f076f9a03d03e446a5f186304/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/fd87986aa651fe7c3128c0b95293c012/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -72,20 +73,20 @@ MERGED from [androidx.print:print:1.0.0] /home/captainspockears/.gradle/caches/t
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/c7e64f6181ef9b2b223b47bd6635a3b3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/9b6fcc30da8d4d18e3efe61e9ccf3b58/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.21.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d10c1748f6272b90f813c777e522a0f6/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:3:5-53
 		INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
 		INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:2:11-69
@@ -99,6 +100,8 @@ MERGED from [com.google.firebase:firebase-storage:19.1.1] /home/captainspockears
 MERGED from [com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
@@ -120,7 +123,7 @@ ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/Andro
 	android:name
 		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:9:19-67
 application
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:11:5-34:19
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:11:5-35:19
 MERGED from [com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/ef47903584e132f95c08c23292cec68e/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -137,8 +140,12 @@ MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.g
 MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:23:5-40:19
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/a9e48127fe754d004bae01689b447ea7/jetified-zxing-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/a9e48127fe754d004bae01689b447ea7/jetified-zxing-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/7e11ac1883f9e27592a377296b09eec8/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/7e11ac1883f9e27592a377296b09eec8/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:26:5-34:19
@@ -169,8 +176,6 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/c
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/530cf519bd2690ba125c7365bd4345e5/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3200ca6f076f9a03d03e446a5f186304/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
@@ -191,42 +196,46 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/
 		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.chiguruecospace.chiguru_mobile_app.ui.home.EventActivity
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:9-68
+	android:name
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:19-56
 activity#com.chiguruecospace.chiguru_mobile_app.registeractivity
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:9-63
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:9-54
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:19-51
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:19-51
 activity#com.chiguruecospace.chiguru_mobile_app.loginactivity
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:9-51
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:9-51
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:19-48
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:19-48
 activity#com.chiguruecospace.chiguru_mobile_app.ScannedItemDisplay
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:9-22:53
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:21:9-23:53
 	android:parentActivityName
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:22:13-50
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:13-50
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:21:13-47
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:22:13-47
 activity#com.chiguruecospace.chiguru_mobile_app.Scanner
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:9-45
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:9-45
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:19-42
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:19-42
 activity#com.chiguruecospace.chiguru_mobile_app.MainActivity
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:9-33:20
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:25:9-34:20
 	android:label
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:27:13-45
 	android:theme
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:27:13-56
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:25:13-41
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:26:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:32:27-74
 uses-sdk
 INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml
@@ -255,8 +264,14 @@ MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.g
 MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:21:5-44
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/a9e48127fe754d004bae01689b447ea7/jetified-zxing-1.9.13/AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/a9e48127fe754d004bae01689b447ea7/jetified-zxing-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/80b69e0281975f7e9accaab0f9198800/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/80b69e0281975f7e9accaab0f9198800/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/7e11ac1883f9e27592a377296b09eec8/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/7e11ac1883f9e27592a377296b09eec8/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/78d35203614433f57bd71fa2fd607863/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
@@ -291,10 +306,6 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/c
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/530cf519bd2690ba125c7365bd4345e5/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1c3c6ae1b03876baf2f33fa7b6fcf43d/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/80b69e0281975f7e9accaab0f9198800/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/80b69e0281975f7e9accaab0f9198800/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/4759d6db3bb84ba21f8103c1b21ff06a/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/4759d6db3bb84ba21f8103c1b21ff06a/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d904065618bbe6e97aac1facdbac74f6/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
@@ -311,6 +322,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/captainspockear
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/301ce5d37c89d79e27dc476d260ff48b/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/455a0fd4d87b584763eae807af5c2489/transition-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/455a0fd4d87b584763eae807af5c2489/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3edfbc7b78ed5b8b0b6ccffd1386d8d8/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3edfbc7b78ed5b8b0b6ccffd1386d8d8/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/33987a6c2abb97d3a5dc8363aa39ad35/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/33987a6c2abb97d3a5dc8363aa39ad35/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/ec2ff2d2f35f5ce21d8f3a2cd566b74c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -329,8 +342,6 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/capta
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/19851895a64cdce23bed4e3d01b0894b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0f70aed076f8f999448e0895dbc3a7a6/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0f70aed076f8f999448e0895dbc3a7a6/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3edfbc7b78ed5b8b0b6ccffd1386d8d8/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3edfbc7b78ed5b8b0b6ccffd1386d8d8/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/3200ca6f076f9a03d03e446a5f186304/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
@@ -387,6 +398,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
@@ -407,6 +420,8 @@ MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.g
 MERGED from [com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
@@ -455,6 +470,12 @@ ADDED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockear
 		ADDED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
