@@ -9,29 +9,38 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_aboutus"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_aboutus" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_contactus"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:title="@string/menu_contactus" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Farm">
+        <menu>
+    <item
+        android:id="@+id/nav_shop"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/menu_shop" />
+    <item
+        android:id="@+id/nav_tour"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/menu_tour" />
+        </menu>
+    </item>
+
+    <item android:title="Settings and Support">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_account"
                 android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:title="@string/menu_account" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_support" />
         </menu>
     </item>
 

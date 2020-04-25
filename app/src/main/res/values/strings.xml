@@ -8,11 +8,12 @@
     <string name="action_settings">Account Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_shop">Shop</string>
+    <string name="menu_tour">Tour</string>
+    <string name="menu_account">Account Settings</string>
+    <string name="menu_support">Report a Problem</string>
     <string name="qr_result">QR Result</string>
     <string name="logintext">Login</string>
     <string name="create_account">Create Account</string>
