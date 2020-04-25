@@ -32,4 +32,5 @@
     <string name="eventdatelabel">"Date: "</string>
     <string name="eventdate">11/1/19</string>
     <string name="username">Username</string>
+    <string name="submit">Submit</string>
 </resources>

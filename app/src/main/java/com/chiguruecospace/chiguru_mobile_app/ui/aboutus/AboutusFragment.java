@@ -62,7 +62,7 @@ public class AboutusFragment extends Fragment {
                 if (task.isSuccessful()) {
                     DocumentSnapshot document = task.getResult();
                     if (document.exists()) {
-                        Log.d("Username", "DocumentSnapshot data: " + document.getData());
+                        Log.d("Aboutus", "DocumentSnapshot data: " + document.getData());
                         final String imagepath = document.getString("Imagepath");
                         final String title = document.getString("Title");
                         final String desc = document.getString("Description");
@@ -94,10 +94,10 @@ public class AboutusFragment extends Fragment {
 
 
                     } else {
-                        Log.d("Username", "No such document");
+                        Log.d("Aboutus", "No such document");
                     }
                 } else {
-                    Log.d("Username", "get failed with ", task.getException());
+                    Log.d("Aboutus", "get failed with ", task.getException());
                 }
             }
         });
