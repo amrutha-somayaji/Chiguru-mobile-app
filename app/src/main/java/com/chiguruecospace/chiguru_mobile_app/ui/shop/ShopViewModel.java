@@ -1,19 +1,39 @@
 package com.chiguruecospace.chiguru_mobile_app.ui.shop;
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+public class ShopViewModel{
 
-public class ShopViewModel extends ViewModel {
+    private String Description;
+    private String Title;
+    private String Imagepath;
 
-    private MutableLiveData<String> mText;
-
-    public ShopViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is shop fragment");
+    public String getImagepath() {
+        return Imagepath;
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public void setImagepath(String imagepath) {
+        Imagepath = imagepath;
+    }
+
+    public void setDescription(String description) {
+        Description = description;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
+    }
+
+    public String getDescription() {
+        return Description;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public ShopViewModel(){}
+
+    public ShopViewModel(String title, String desc) {
+        this.Title = title;
+        this.Description = desc;
     }
 }

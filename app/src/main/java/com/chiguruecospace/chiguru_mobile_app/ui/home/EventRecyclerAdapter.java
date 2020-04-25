@@ -104,7 +104,7 @@ public class EventRecyclerAdapter extends RecyclerView.Adapter<EventRecyclerAdap
             super(itemView);
 
             mView = itemView;
-            parentlayout = itemView.findViewById(R.id.parentlayout);
+            parentlayout = itemView.findViewById(R.id.eventparentlayout);
 
         }
 

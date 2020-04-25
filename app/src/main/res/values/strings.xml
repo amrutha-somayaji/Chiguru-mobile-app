@@ -33,4 +33,9 @@
     <string name="eventdate">11/1/19</string>
     <string name="username">Username</string>
     <string name="submit">Submit</string>
+    <string name="shopimage">Shop Image</string>
+    <string name="shopheading">Heading</string>
+    <string name="shopdesc">Description</string>
+    <string name="shopitempricelabel">Price:</string>
+    <string name="Price">0</string>
 </resources>
