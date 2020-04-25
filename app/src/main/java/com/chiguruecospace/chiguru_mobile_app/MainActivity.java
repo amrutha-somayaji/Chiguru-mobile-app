@@ -2,6 +2,7 @@ package com.chiguruecospace.chiguru_mobile_app;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,17 +17,24 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private FirebaseFirestore db;
 
     private FirebaseAuth mAuth;
     private TextView nav_header;
+    private View hview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +62,33 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
+        hview = navigationView.getHeaderView(0);
+        nav_header = (TextView) hview.findViewById(R.id.nav_header_title);
+
         mAuth = FirebaseAuth.getInstance();
+        db = FirebaseFirestore.getInstance();
+
+        String userUID = mAuth.getCurrentUser().getUid();
+
+        DocumentReference docRef = db.collection("users").document(userUID);
+        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    DocumentSnapshot document = task.getResult();
+                    if (document.exists()) {
+                        Log.d("Username", "DocumentSnapshot data: " + document.getData());
+                        String username = document.getString("Username");
+                        nav_header.setText(username);
+
+                    } else {
+                        Log.d("Username", "No such document");
+                    }
+                } else {
+                    Log.d("Username", "get failed with ", task.getException());
+                }
+            }
+        });
 
     }
 
