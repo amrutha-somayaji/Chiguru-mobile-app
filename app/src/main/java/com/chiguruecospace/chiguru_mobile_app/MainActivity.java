@@ -68,27 +68,32 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
 
-        String userUID = mAuth.getCurrentUser().getUid();
+        try {
+            String userUID = mAuth.getCurrentUser().getUid();
+            DocumentReference docRef = db.collection("users").document(userUID);
+            docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DocumentSnapshot document = task.getResult();
+                        if (document.exists()) {
+                            Log.d("Username", "DocumentSnapshot data: " + document.getData());
+                            String username = document.getString("Username");
+                            nav_header.setText(username);
 
-        DocumentReference docRef = db.collection("users").document(userUID);
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if (task.isSuccessful()) {
-                    DocumentSnapshot document = task.getResult();
-                    if (document.exists()) {
-                        Log.d("Username", "DocumentSnapshot data: " + document.getData());
-                        String username = document.getString("Username");
-                        nav_header.setText(username);
-
+                        } else {
+                            Log.d("Username", "No such document");
+                        }
                     } else {
-                        Log.d("Username", "No such document");
+                        Log.d("Username", "get failed with ", task.getException());
                     }
-                } else {
-                    Log.d("Username", "get failed with ", task.getException());
                 }
-            }
-        });
+            });
+        }catch(Exception e){
+
+            logout();
+
+        }
 
     }
 
