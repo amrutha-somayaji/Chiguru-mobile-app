@@ -33,6 +33,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.chiguruecospace.chiguru_mobile_app.forgotpasswordActivity" />
+        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountPasswordActivity" />
+        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountusernameActivity" />
+        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountdetailsActivity" />
         <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.shop.ShopActivity" />
         <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.home.EventActivity" />
         <activity android:name="com.chiguruecospace.chiguru_mobile_app.registeractivity" />

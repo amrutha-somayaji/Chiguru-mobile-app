@@ -1,5 +1,8 @@
 package com.chiguruecospace.chiguru_mobile_app;
 
+import com.chiguruecospace.chiguru_mobile_app.ui.account.AccountFragment;
+import com.chiguruecospace.chiguru_mobile_app.ui.home.HomeFragment;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -55,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_aboutus, R.id.nav_contactus,
-                R.id.nav_shop, R.id.nav_tour, R.id.nav_account,R.id.nav_support)
+                R.id.nav_shop, R.id.nav_tour, R.id.nav_account,R.id.nav_support,R.id.nav_logout)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -95,20 +99,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-        switch (item.getItemId()){
-
-            case R.id.action_logout:
-                logout();
-                return true;
-            default:
-                return false;
-
-        }
     }
 
     private void logout(){
