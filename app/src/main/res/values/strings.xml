@@ -54,4 +54,6 @@
     <string name="passwordchangehint">Type your new Password ...</string>
     <string name="retypepassword">Retype New Password</string>
     <string name="resetpasswordemaillabel">Enter your email and we will send you a link to reset your password</string>
+    <string name="type_your_message_here">Type your message here ...</string>
+    <string name="title">Title</string>
 </resources>
