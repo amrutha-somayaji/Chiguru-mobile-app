@@ -56,4 +56,6 @@
     <string name="resetpasswordemaillabel">Enter your email and we will send you a link to reset your password</string>
     <string name="type_your_message_here">Type your message here ...</string>
     <string name="title">Title</string>
+    <string name="user_location_permission_explanation">Permission is required to run the map</string>
+    <string name="user_location_permission_not_granted">Map Permission Denied</string>
 </resources>

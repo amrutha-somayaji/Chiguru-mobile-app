@@ -47,4 +47,5 @@ dependencies {
     implementation 'com.karumi:dexter:5.0.0'
     implementation 'com.google.firebase:firebase-firestore:21.4.1'
     implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0'
 }

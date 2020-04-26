@@ -16,267 +16,308 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:6:5-67
 12-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:6:22-64
-13
-14    <uses-feature android:name="android.hardware.camera" />
-14-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:8:5-60
-14-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:8:19-57
-15    <uses-feature android:name="android.hardware.camera.autofocus" />
-15-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:9:5-70
-15-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:9:19-67
-16
-17    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:5-79
-19-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:22-76
-20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-20-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
-20-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
-21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
-21-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
-22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-22-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
-22-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
-23
-24    <application
-24-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:11:5-40:19
-25        android:name="androidx.multidex.MultiDexApplication"
-26        android:allowBackup="true"
-26-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:12:9-35
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:22:18-86
-28        android:debuggable="true"
-29        android:icon="@mipmap/ic_launcher"
-29-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:13:9-43
-30        android:label="@string/app_name"
-30-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:14:9-41
-31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:15:9-54
-32        android:supportsRtl="true"
-32-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:16:9-35
-33        android:testOnly="true"
-34        android:theme="@style/AppTheme" >
-34-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:17:9-40
-35        <activity android:name="com.chiguruecospace.chiguru_mobile_app.forgotpasswordActivity" />
-35-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:9-69
-35-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:19-57
-36        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountPasswordActivity" />
-36-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:9-72
-36-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:19-69
-37        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountusernameActivity" />
-37-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:9-72
-37-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:19-69
-38        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountdetailsActivity" />
-38-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:21:9-71
-38-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:21:19-68
-39        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.shop.ShopActivity" />
-39-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:22:9-58
-39-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:22:19-55
-40        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.home.EventActivity" />
-40-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:9-59
-40-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:19-56
-41        <activity android:name="com.chiguruecospace.chiguru_mobile_app.registeractivity" />
-41-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:9-54
-41-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:19-51
-42        <activity android:name="com.chiguruecospace.chiguru_mobile_app.loginactivity" />
-42-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:25:9-51
-42-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:25:19-48
-43        <activity
-43-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:26:9-28:53
-44            android:name="com.chiguruecospace.chiguru_mobile_app.ScannedItemDisplay"
-44-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:27:13-47
-45            android:parentActivityName="com.chiguruecospace.chiguru_mobile_app.Scanner" />
-45-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:28:13-50
-46        <activity android:name="com.chiguruecospace.chiguru_mobile_app.Scanner" />
-46-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:29:9-45
-46-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:29:19-42
-47        <activity
-47-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:30:9-39:20
-48            android:name="com.chiguruecospace.chiguru_mobile_app.MainActivity"
-48-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:31:13-41
-49            android:label="@string/app_name"
-49-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:32:13-45
-50            android:theme="@style/AppTheme.NoActionBar" >
-50-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:33:13-56
-51            <intent-filter>
-51-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:34:13-38:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:35:17-69
-52-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:35:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:37:17-77
-54-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:37:27-74
-55            </intent-filter>
-56        </activity>
-57        <activity
-57-->[com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
-58            android:name="com.karumi.dexter.DexterActivity"
-58-->[com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
-59            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-59-->[com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
-60
-61        <service
-61-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:30:9-36:19
-62            android:name="com.google.firebase.components.ComponentDiscoveryService"
-62-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:31:13-84
-63            android:directBootAware="true"
-63-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-64            android:exported="false" >
-64-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:32:13-37
-65            <meta-data
-65-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
-66                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-66-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
-67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
-68            <meta-data
-68-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:36:13-38:85
-69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-69-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:37:17-109
-70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:38:17-82
-71            <meta-data
-71-->[com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:20:13-22:85
-72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-72-->[com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:21:17-111
-73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:22:17-82
-74            <meta-data
-74-->[com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
-75                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-75-->[com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
-76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
-77            <meta-data
-77-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
-78                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-78-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
-79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
-80            <meta-data
-80-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
-81                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-81-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
-82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
-83        </service>
-84
-85        <activity
-85-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:24:9-31:50
-86            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-86-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:25:13-85
-87            android:excludeFromRecents="true"
-87-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:26:13-46
-88            android:exported="true"
-88-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:27:13-36
-89            android:launchMode="singleTask"
-89-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:28:13-44
-90            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-90-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:29:13-102
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:30:13-72
-92
-93        <receiver
-93-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
-94            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-94-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
-95            android:exported="true"
-95-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
-96            android:permission="com.google.android.c2dm.permission.SEND" >
-96-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
-97            <intent-filter>
-97-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
-98                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-98-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
-98-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
-99            </intent-filter>
-100        </receiver>
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-106
-107        <receiver
-107-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
-108            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-108-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
-109            android:enabled="true"
-109-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
-110            android:exported="false" >
-110-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:7:5-79
+13-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:9:5-60
+15-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:10:5-70
+16-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:10:19-67
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:22-76
+21
+22    <uses-feature
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:9:5-11:35
+23        android:glEsVersion="0x00020000"
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:10:9-41
+24        android:required="true" />
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:11:9-32
+25    <uses-feature
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:12:5-14:36
+26        android:name="android.hardware.wifi"
+26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:13:9-45
+27        android:required="false" />
+27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:14:9-33
+28
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:18:5-76
+29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/77b5ee24955b6252b751c38926f5515f/jetified-mapbox-android-sdk-9.1.0/AndroidManifest.xml:18:22-73
+30    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+33
+34    <application
+34-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:12:5-42:19
+35        android:name="androidx.multidex.MultiDexApplication"
+36        android:allowBackup="true"
+36-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:13:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.0.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/baab1d635d6299aaa7cd48a6c4ae1902/core-1.0.1/AndroidManifest.xml:22:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:14:9-43
+40        android:label="@string/app_name"
+40-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:15:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:16:9-54
+42        android:supportsRtl="true"
+42-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:17:9-35
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme" >
+44-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:18:9-40
+45        <activity android:name="com.chiguruecospace.chiguru_mobile_app.mapactivity" />
+45-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:9-58
+45-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:19:19-46
+46        <activity android:name="com.chiguruecospace.chiguru_mobile_app.forgotpasswordActivity" />
+46-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:9-60
+46-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:20:19-57
+47        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountPasswordActivity" />
+47-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:21:9-72
+47-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:21:19-69
+48        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountusernameActivity" />
+48-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:22:9-72
+48-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:22:19-69
+49        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.account.accountdetailsActivity" />
+49-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:9-71
+49-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:23:19-68
+50        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.shop.ShopActivity" />
+50-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:9-58
+50-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:24:19-55
+51        <activity android:name="com.chiguruecospace.chiguru_mobile_app.ui.home.EventActivity" />
+51-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:25:9-59
+51-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:25:19-56
+52        <activity android:name="com.chiguruecospace.chiguru_mobile_app.registeractivity" />
+52-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:26:9-54
+52-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:26:19-51
+53        <activity android:name="com.chiguruecospace.chiguru_mobile_app.loginactivity" />
+53-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:27:9-51
+53-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:27:19-48
+54        <activity
+54-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:28:9-30:53
+55            android:name="com.chiguruecospace.chiguru_mobile_app.ScannedItemDisplay"
+55-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:29:13-47
+56            android:parentActivityName="com.chiguruecospace.chiguru_mobile_app.Scanner" />
+56-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:30:13-50
+57        <activity android:name="com.chiguruecospace.chiguru_mobile_app.Scanner" />
+57-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:31:9-45
+57-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:31:19-42
+58        <activity
+58-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:32:9-41:20
+59            android:name="com.chiguruecospace.chiguru_mobile_app.MainActivity"
+59-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:33:13-41
+60            android:label="@string/app_name"
+60-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:34:13-45
+61            android:theme="@style/AppTheme.NoActionBar" >
+61-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:35:13-56
+62            <intent-filter>
+62-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:36:13-40:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:37:17-69
+63-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:37:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:39:17-77
+65-->/home/captainspockears/Projects/Chiguru-mobile-app/app/src/main/AndroidManifest.xml:39:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+69            android:name="com.karumi.dexter.DexterActivity"
+69-->[com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+70            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+70-->[com.karumi:dexter:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/653729ba85c8f3002a78a5bf05224b10/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+71
+72        <service
+72-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:30:9-36:19
+73            android:name="com.google.firebase.components.ComponentDiscoveryService"
+73-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:31:13-84
+74            android:directBootAware="true"
+74-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:32:13-37
+76            <meta-data
+76-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+77                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+77-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-storage:19.1.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8ad4e1ffea3e5c78db0912db37bdac9c/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:36:13-38:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:37:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:38:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:20:13-22:85
+83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+83-->[com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:21:17-111
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-firestore:21.4.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/13154fab687b288ed9aef6894a4a20b6/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:22:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
+86                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+86-->[com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-database:19.2.1] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/8034dc9f3f5420545158b80dfc317073/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
+88            <meta-data
+88-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+89                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+89-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+92                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+92-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+94        </service>
+95
+96        <activity
+96-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:24:9-31:50
+97            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+97-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:25:13-85
+98            android:excludeFromRecents="true"
+98-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:26:13-46
+99            android:exported="true"
+99-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:27:13-36
+100            android:launchMode="singleTask"
+100-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:28:13-44
+101            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+101-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:29:13-102
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.firebase:firebase-auth:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/dfe7b3659c61d92bbc3815d5264c7c0d/jetified-firebase-auth-19.3.0/AndroidManifest.xml:30:13-72
+103
+104        <receiver
+104-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+105-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+106            android:exported="true"
+106-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+108            <intent-filter>
+108-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+109-->[com.google.firebase:firebase-iid:20.0.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+110            </intent-filter>
 111        </receiver>
-112        <receiver
-112-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
-113            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-113-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
-114            android:enabled="true"
-114-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
-115            android:exported="true"
-115-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
-116            android:permission="android.permission.INSTALL_PACKAGES" >
-116-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
-117            <intent-filter>
-117-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
-118                <action android:name="com.android.vending.INSTALL_REFERRER" />
-118-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
-118-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
-119            </intent-filter>
-120        </receiver>
-121
-122        <service
-122-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
-123            android:name="com.google.android.gms.measurement.AppMeasurementService"
-123-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
-124            android:enabled="true"
-124-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
-125            android:exported="false" />
-125-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
-126        <service
-126-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
-127            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-127-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
-128            android:enabled="true"
-128-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
-129            android:exported="false"
-129-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
-130            android:permission="android.permission.BIND_JOB_SERVICE" />
-130-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
-131
-132        <provider
-132-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-133            android:name="com.google.firebase.provider.FirebaseInitProvider"
-133-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-134            android:authorities="com.chiguruecospace.chiguru_mobile_app.firebaseinitprovider"
-134-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-135            android:exported="false"
-135-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-136            android:initOrder="100" />
-136-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-137
-138        <meta-data
-138-->[com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-139            android:name="com.google.android.gms.version"
-139-->[com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-140            android:value="@integer/google_play_services_version" />
-140-->[com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-141
-142        <provider
-142-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-143            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-143-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-144            android:authorities="com.chiguruecospace.chiguru_mobile_app.lifecycle-process"
-144-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-145            android:exported="false"
-145-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-146            android:multiprocess="true" />
-146-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-147    </application>
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.1.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/d515fa0142795af05e3369fe0848cba8/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+117
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+122        </receiver>
+123        <receiver
+123-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+124-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+126            android:exported="true"
+126-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+127            android:permission="android.permission.INSTALL_PACKAGES" >
+127-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+128            <intent-filter>
+128-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+129                <action android:name="com.android.vending.INSTALL_REFERRER" />
+129-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+129-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <service
+133-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+134            android:name="com.google.android.gms.measurement.AppMeasurementService"
+134-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+135            android:enabled="true"
+135-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+136            android:exported="false" />
+136-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+137        <service
+137-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+138            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+138-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[com.google.android.gms:play-services-measurement:17.2.2] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+142
+143        <provider
+143-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+144            android:name="com.google.firebase.provider.FirebaseInitProvider"
+144-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+145            android:authorities="com.chiguruecospace.chiguru_mobile_app.firebaseinitprovider"
+145-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+146            android:exported="false"
+146-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+147            android:initOrder="100" />
+147-->[com.google.firebase:firebase-common:19.3.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 148
-149</manifest>
+149        <meta-data
+149-->[com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+150            android:name="com.google.android.gms.version"
+150-->[com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+151            android:value="@integer/google_play_services_version" />
+151-->[com.google.android.gms:play-services-basement:17.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+152
+153        <provider
+153-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:18:9-22:39
+154            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+154-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:19:13-93
+155            android:authorities="com.chiguruecospace.chiguru_mobile_app.mapboxtelemetryinitprovider"
+155-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:20:13-79
+156            android:exported="false"
+156-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:21:13-37
+157            android:initOrder="100" />
+157-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:22:13-36
+158
+159        <service
+159-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:24:9-26:72
+160            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+160-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:25:13-92
+161            android:permission="android.permission.BIND_JOB_SERVICE" />
+161-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/60a62280cd4f2c5ae613c058d959a19f/jetified-mapbox-android-telemetry-5.0.0/AndroidManifest.xml:26:13-69
+162
+163        <provider
+163-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+164            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+164-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+165            android:authorities="com.chiguruecospace.chiguru_mobile_app.lifecycle-process"
+165-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+166            android:exported="false"
+166-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+167            android:multiprocess="true" />
+167-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/captainspockears/.gradle/caches/transforms-2/files-2.1/399fb33a8ad56b04bb7efb3af3e16457/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+168    </application>
+169
+170</manifest>

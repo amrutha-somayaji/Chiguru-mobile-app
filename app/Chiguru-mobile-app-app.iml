@@ -111,7 +111,8 @@
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-lite:3.0.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-okhttp:1.21.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp:okhttp:2.7.5@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.21.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.opencensus:opencensus-contrib-grpc-metrics:0.21.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.opencensus:opencensus-api:0.21.0@jar" level="project" />
@@ -124,7 +125,8 @@
     <orderEntry type="library" name="Gradle: com.google.guava:guava:26.0-android@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.5.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mapbox.mapboxsdk:mapbox-sdk-geojson:5.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android:annotations:4.1.1.4@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui:2.0.0@aar" level="project" />
@@ -161,6 +163,8 @@
     <orderEntry type="library" name="Gradle: androidx.recyclerview:recyclerview:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.transition:transition:1.0.0@aar" level="project" />
@@ -195,5 +199,8 @@
     <orderEntry type="library" name="Gradle: me.dm7.barcodescanner:core:1.9.13@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:protolite-well-known-types:17.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-android:1.21.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mapbox.mapboxsdk:mapbox-android-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0@aar" level="project" />
   </component>
 </module>
