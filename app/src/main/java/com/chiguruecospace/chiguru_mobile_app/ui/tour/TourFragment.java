@@ -65,17 +65,17 @@ public class TourFragment extends Fragment implements
         Mapbox.getInstance(getActivity(), "pk.eyJ1IjoicnV0aHVwYXJuYWsiLCJhIjoiY2s5aDZmanpzMHJybjNmbzk2NmY5d3dwNCJ9.HwYfWVsfitgcRlDWOJ6-0A");
         View root = inflater.inflate(R.layout.activity_mapactivity, container, false);
 
-        mapboxMap = MapboxMap.;
         mapView = root.findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(new OnMapReadyCallback() {
             @Override
-            public void onMapReady(@NonNull final MapboxMap mapboxMap) {
+            public void onMapReady(@NonNull final MapboxMap mapboxMap1) {
+                mapboxMap = mapboxMap1;
+
                 mapboxMap.setStyle(new Style.Builder().fromUri("mapbox://styles/ruthuparnak/ck9oe3ray3ni01immav3zgynq"),
                         new Style.OnStyleLoaded() {
                     @Override
                     public void onStyleLoaded(@NonNull Style style) {
-
                         // Custom map style has been loaded and map is now ready
                         enableLocationComponent(style);
 
