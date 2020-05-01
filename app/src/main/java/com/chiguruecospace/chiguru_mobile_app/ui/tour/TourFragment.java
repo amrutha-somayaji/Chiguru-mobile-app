@@ -79,7 +79,6 @@ public class TourFragment extends Fragment implements
                         // Custom map style has been loaded and map is now ready
                         enableLocationComponent(style);
 
-
                     }
                 });
             }
