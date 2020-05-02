@@ -74,7 +74,6 @@ public class EventRecyclerAdapter extends RecyclerView.Adapter<EventRecyclerAdap
                     mContext.startActivity(intent);
                 }catch (Exception e){
 
-                    Log.println(1,"change",""+e);
                     Toast.makeText(mContext, "Error: "+e, Toast.LENGTH_SHORT).show();
 
                 }

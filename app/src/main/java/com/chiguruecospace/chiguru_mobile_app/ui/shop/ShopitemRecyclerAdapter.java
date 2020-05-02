@@ -66,7 +66,6 @@ public class ShopitemRecyclerAdapter extends RecyclerView.Adapter<ShopitemRecycl
                     mContext.startActivity(intent);
                 }catch (Exception e){
 
-                    Log.println(1,"change",""+e);
                     Toast.makeText(mContext, "Error: "+e, Toast.LENGTH_SHORT).show();
 
                 }
