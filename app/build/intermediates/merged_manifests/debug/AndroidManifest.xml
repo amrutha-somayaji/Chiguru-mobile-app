@@ -15,7 +15,8 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
-    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -68,7 +69,9 @@
         <activity
             android:name="com.karumi.dexter.DexterActivity"
             android:theme="@style/Dexter.Internal.Theme.Transparent" />
+        <activity android:name="com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity" />
 
+        <service android:name="com.mapbox.services.android.navigation.v5.navigation.NavigationService" />
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"
@@ -165,6 +168,10 @@
             android:authorities="com.chiguruecospace.chiguru_mobile_app.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.chiguruecospace.chiguru_mobile_app.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>
