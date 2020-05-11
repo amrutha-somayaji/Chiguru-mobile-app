@@ -123,21 +123,24 @@ public class TourFragment extends Fragment implements
     }
 
     @Override
-    public void onMapReady(@NonNull MapboxMap mapboxMap) {
-        final MapboxMap mapboxMap1 = mapboxMap;
+    public void onMapReady(@NonNull final MapboxMap mapboxMap) {
+        this.mapboxMap = mapboxMap;
 
-        mapboxMap1.setStyle(new Style.Builder().fromUri("mapbox://styles/ruthuparnak/ck9oe3ray3ni01immav3zgynq"),
+        mapboxMap.setStyle(new Style.Builder().fromUri("mapbox://styles/ruthuparnak/ck9oe3ray3ni01immav3zgynq"),
                 new Style.OnStyleLoaded() {
                     @Override
                     public void onStyleLoaded(@NonNull Style style) {
                         // Custom map style has been loaded and map is now ready
+
                         enableLocationComponent(style);
 
                         addDestinationIconSymbolLayer(style);
 
-                        mapboxMap1.addOnMapClickListener((MapboxMap.OnMapClickListener) getActivity());
+                        mapboxMap.addOnMapClickListener(TourFragment.this);
+
                         button = root.findViewById(R.id.startButton);
                         button.setOnClickListener(new View.OnClickListener() {
+
                             @Override
                             public void onClick(View v) {
                                 boolean simulateRoute = true;
@@ -225,10 +228,10 @@ public class TourFragment extends Fragment implements
     @SuppressWarnings( {"MissingPermission"})
     private void enableLocationComponent(@NonNull Style loadedMapStyle) {
         // Check if permissions are enabled and if not request
-        if (PermissionsManager.areLocationPermissionsGranted(getActivity())) {
+        if (PermissionsManager.areLocationPermissionsGranted(getContext())) {
 
 // Get an instance of the component
-            LocationComponent locationComponent = mapboxMap.getLocationComponent();
+            locationComponent = mapboxMap.getLocationComponent();
 
 // Activate with options
             locationComponent.activateLocationComponent(
