@@ -16,7 +16,57 @@ tools:context="com.chiguruecospace.chiguru_mobile_app.ui.tour.TourFragment">
         mapbox:layout_constraintTop_toTopOf="parent"
         mapbox:mapbox_cameraTargetLat="12.945"
         mapbox:mapbox_cameraTargetLng="77.325061"
-        mapbox:mapbox_cameraZoom="16" />
+        mapbox:mapbox_cameraZoom="16">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+
+                    mapbox:layout_constraintBottom_toBottomOf="parent"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintHorizontal_bias="0.075"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toBottomOf="@+id/textView8"
+                    mapbox:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/changeroute"
+                    mapbox:layout_constraintBottom_toBottomOf="parent"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintHorizontal_bias="0.053"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toTopOf="parent"
+                    mapbox:layout_constraintVertical_bias="0.2" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@android:drawable/ic_menu_more"
+                    mapbox:layout_constraintBottom_toBottomOf="parent"
+                    mapbox:layout_constraintEnd_toEndOf="parent"
+                    mapbox:layout_constraintHorizontal_bias="0.276"
+                    mapbox:layout_constraintStart_toStartOf="parent"
+                    mapbox:layout_constraintTop_toTopOf="parent"
+                    mapbox:layout_constraintVertical_bias="1.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+
+    </com.mapbox.mapboxsdk.maps.MapView>
 
     <Button
         android:id="@+id/startButton"

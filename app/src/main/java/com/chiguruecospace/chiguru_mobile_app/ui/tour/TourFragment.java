@@ -7,7 +7,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -66,14 +69,16 @@ import com.mapbox.services.android.navigation.ui.v5.NavigationLauncherOptions;
 import com.mapbox.services.android.navigation.ui.v5.route.NavigationMapRoute;
 import com.mapbox.services.android.navigation.v5.navigation.NavigationRoute;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class TourFragment extends Fragment implements
-        OnMapReadyCallback, MapboxMap.OnMapClickListener, PermissionsListener {
+        OnMapReadyCallback, MapboxMap.OnMapClickListener, PermissionsListener, AdapterView.OnItemSelectedListener {
 
     private TourViewModel tourViewModel;
     // variables for adding location layer
@@ -87,9 +92,16 @@ public class TourFragment extends Fragment implements
     private static final String TAG = "DirectionsActivity";
     private NavigationMapRoute navigationMapRoute;
     // variables needed to initialize navigation
+
+    private Spinner spinner;
     private Button button;
 
     private View root;
+
+    private String mappath;
+
+    private final Point[] waypointsA = {Point.fromLngLat(77.325491, 12.944916), Point.fromLngLat(77.32549, 12.945232), Point.fromLngLat(77.326386, 12.945199), Point.fromLngLat(77.326386, 12.944914)};
+    private final Point[] waypointsB = {Point.fromLngLat(77.3244401, 12.9445118), Point.fromLngLat(77.3247994, 12.944602), Point.fromLngLat(77.3242504, 12.9446719)};
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -98,26 +110,11 @@ public class TourFragment extends Fragment implements
         Mapbox.getInstance(getActivity(), "pk.eyJ1IjoicnV0aHVwYXJuYWsiLCJhIjoiY2s5aDZmanpzMHJybjNmbzk2NmY5d3dwNCJ9.HwYfWVsfitgcRlDWOJ6-0A");
         root = inflater.inflate(R.layout.activity_mapactivity, container, false);
 
+        mappath = getResources().getString(R.string.mapbase);
+
         mapView = root.findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
-        /*
-        mapView.getMapAsync(new OnMapReadyCallback() {
-            @Override
-            public void onMapReady(@NonNull final MapboxMap mapboxMap1) {
-                mapboxMap = mapboxMap1;
-
-                mapboxMap.setStyle(new Style.Builder().fromUri("mapbox://styles/ruthuparnak/ck9oe3ray3ni01immav3zgynq"),
-                        new Style.OnStyleLoaded() {
-                    @Override
-                    public void onStyleLoaded(@NonNull Style style) {
-                        // Custom map style has been loaded and map is now ready
-                        enableLocationComponent(style);
-
-                    }
-                });
-            }
-        }); */
 
         return root;
     }
@@ -126,7 +123,7 @@ public class TourFragment extends Fragment implements
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
         this.mapboxMap = mapboxMap;
 
-        mapboxMap.setStyle(new Style.Builder().fromUri("mapbox://styles/ruthuparnak/ck9oe3ray3ni01immav3zgynq"),
+        mapboxMap.setStyle(new Style.Builder().fromUri(mappath),
                 new Style.OnStyleLoaded() {
                     @Override
                     public void onStyleLoaded(@NonNull Style style) {
@@ -137,6 +134,16 @@ public class TourFragment extends Fragment implements
                         addDestinationIconSymbolLayer(style);
 
                         mapboxMap.addOnMapClickListener(TourFragment.this);
+
+                        spinner = root.findViewById(R.id.spinner);
+                        ArrayList<String> list = new ArrayList<>();
+                        list.add("Route A");
+                        list.add("Route B");
+                        list.add("Route C");
+                        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_dropdown_item, list);
+                        spinner.setAdapter(adapter);
+
+                        spinner.setOnItemSelectedListener(TourFragment.this);
 
                         button = root.findViewById(R.id.startButton);
                         button.setOnClickListener(new View.OnClickListener() {
@@ -173,27 +180,22 @@ public class TourFragment extends Fragment implements
 
     @Override
     public boolean onMapClick(@NonNull LatLng point) {
-        Point destinationPoint = Point.fromLngLat(point.getLongitude(), point.getLatitude());
-        Point originPoint = Point.fromLngLat(locationComponent.getLastKnownLocation().getLongitude(),
-                locationComponent.getLastKnownLocation().getLatitude());
-
-        GeoJsonSource source = mapboxMap.getStyle().getSourceAs("destination-source-id");
-        if (source != null) {
-            source.setGeoJson(Feature.fromGeometry(destinationPoint));
-        }
-
-        getRoute(originPoint, destinationPoint);
-        button.setEnabled(true);
-        button.setBackgroundResource(R.color.mapboxBlue);
         return true;
     }
 
-    private void getRoute(Point origin, Point destination) {
-        NavigationRoute.builder(getContext())
+    private void getRoute(Point origin, Point[] waypoints, Point destination) {
+        NavigationRoute.Builder builder = NavigationRoute.builder(getContext())
                 .accessToken(Mapbox.getAccessToken())
                 .origin(origin)
-                .destination(destination)
-                .build()
+                .destination(destination);
+
+                if (waypoints.length != 0){
+                    for (Point waypoint : waypoints) {
+                        builder.addWaypoint(waypoint);
+                    }
+                }
+
+                builder.build()
                 .getRoute(new Callback<DirectionsResponse>() {
                     @Override
                     public void onResponse(Call<DirectionsResponse> call, Response<DirectionsResponse> response) {
@@ -317,5 +319,43 @@ public class TourFragment extends Fragment implements
     public void onLowMemory() {
         super.onLowMemory();
         mapView.onLowMemory();
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+        String text = parent.getItemAtPosition(position).toString();
+        //Toast.makeText(getActivity(),text, Toast.LENGTH_SHORT).show();
+
+        Point[] waypoints = {};
+
+        Point destinationPoint = Point.fromLngLat(77.32516044523187, 12.944405208282534);
+        Point originPoint = Point.fromLngLat(locationComponent.getLastKnownLocation().getLongitude(),
+                locationComponent.getLastKnownLocation().getLatitude());
+
+
+        GeoJsonSource source = mapboxMap.getStyle().getSourceAs("destination-source-id");
+        if (source != null) {
+            source.setGeoJson(Feature.fromGeometry(destinationPoint));
+        }
+
+        if (text.equals("Route A")){
+            waypoints = waypointsA;
+        }else if ((text.equals("Route B"))){
+            waypoints = waypointsB;
+        }else{
+            Toast.makeText(getActivity(),"Invalid Route Selected.", Toast.LENGTH_SHORT).show();
+        }
+
+        //Toast.makeText(getActivity(), waypoints[0].toString(), Toast.LENGTH_SHORT).show();
+        getRoute(originPoint, waypoints, destinationPoint);
+        button.setEnabled(true);
+        button.setBackgroundResource(R.color.mapboxBlue);
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 }

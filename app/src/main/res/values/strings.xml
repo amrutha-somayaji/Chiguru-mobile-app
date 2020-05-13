@@ -59,4 +59,7 @@
     <string name="user_location_permission_explanation">Permission is required to run the map</string>
     <string name="user_location_permission_not_granted">Map Permission Denied</string>
     <string name="startnavigation">Start Navigation</string>
+    <string name="mapbase">mapbox://styles/ruthuparnak/cka3qxi8n0o231inxiirhcars</string>
+    <string name="maprouteA">mapbox://styles/ruthuparnak/cka43ge730dsv1imnl55szjut</string>
+    <string name="changeroute">Change Route:</string>
 </resources>
