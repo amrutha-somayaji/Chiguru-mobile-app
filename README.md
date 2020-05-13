@@ -1,5 +1,5 @@
 ![logoaeaera](https://user-images.githubusercontent.com/46392391/81837425-7aee6980-9562-11ea-841a-4ebd736dd6cf.jpg)
-# Chiguru-mobile-app
+# Chiguru Android Application
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3e4f52ae3354d38b111c2962dc7fab2)](https://app.codacy.com/manual/ruthuparna1998/Chiguru-mobile-app?utm_source=github.com&utm_medium=referral&utm_content=Captainspockears/Chiguru-mobile-app&utm_campaign=Badge_Grade_Dashboard) ![Android CI](https://github.com/Captainspockears/Chiguru-mobile-app/workflows/Android%20CI/badge.svg?branch=master)
 
