@@ -100,8 +100,9 @@ public class TourFragment extends Fragment implements
 
     private String mappath;
 
-    private final Point[] waypointsA = {Point.fromLngLat(77.325491, 12.944916), Point.fromLngLat(77.32549, 12.945232), Point.fromLngLat(77.326386, 12.945199), Point.fromLngLat(77.326386, 12.944914)};
-    private final Point[] waypointsB = {Point.fromLngLat(77.3244401, 12.9445118), Point.fromLngLat(77.3247994, 12.944602), Point.fromLngLat(77.3242504, 12.9446719)};
+    private final Point[] waypointsA = {Point.fromLngLat(77.3262233, 12.9452901)};
+    private final Point[] waypointsB = {Point.fromLngLat(77.3242504, 12.9446719)};
+    private final Point[] waypointsC = {Point.fromLngLat(77.3265060, 12.9446322)};
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -150,10 +151,9 @@ public class TourFragment extends Fragment implements
 
                             @Override
                             public void onClick(View v) {
-                                boolean simulateRoute = true;
                                 NavigationLauncherOptions options = NavigationLauncherOptions.builder()
                                         .directionsRoute(currentRoute)
-                                        .shouldSimulateRoute(simulateRoute)
+                                        .shouldSimulateRoute(false)
                                         .build();
 // Call this method with Context from within an Activity
                                 NavigationLauncher.startNavigation(getActivity(), options);
@@ -329,9 +329,11 @@ public class TourFragment extends Fragment implements
 
         Point[] waypoints = {};
 
-        Point destinationPoint = Point.fromLngLat(77.32516044523187, 12.944405208282534);
+        Point destinationPoint = Point.fromLngLat(77.32516044523187, 12.944405208282534); //77.32516044523187, 12.944405208282534
         Point originPoint = Point.fromLngLat(locationComponent.getLastKnownLocation().getLongitude(),
                 locationComponent.getLastKnownLocation().getLatitude());
+
+        //originPoint = Point.fromLngLat(77.3270518, 12.9446522); // 12.9446522, 77.3270518
 
 
         GeoJsonSource source = mapboxMap.getStyle().getSourceAs("destination-source-id");
@@ -343,6 +345,8 @@ public class TourFragment extends Fragment implements
             waypoints = waypointsA;
         }else if ((text.equals("Route B"))){
             waypoints = waypointsB;
+        }else if ((text.equals("Route C"))){
+            waypoints = waypointsC;
         }else{
             Toast.makeText(getActivity(),"Invalid Route Selected.", Toast.LENGTH_SHORT).show();
         }
