@@ -5,6 +5,8 @@
 
 *This application is still under development and the beta version is scheduled to be released on June 1st, 2020*
 
+Get the Beta version: [Chiguru-Ecospace-Mobile-App](apk/app-debug.apk)
+
 An android application for a farm-based client that provides information to visitors regarding the farm's diversity, upcoming events, a platform to sell farm value additions, etc. It also takes the visitors on guided tours using map navigation and allows them to scan QR codes to get information about plants and animals on the farm. We have provided an admin site built using Django to control and maintain the app.
 
 ## Features of the Application
