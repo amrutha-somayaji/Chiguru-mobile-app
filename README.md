@@ -30,9 +30,10 @@ Users are required to provide their email ids and sign-up inorder to use the app
 This takes the visitors on a tour of the farm. The route is chosen based on the user's preferences.
 
 <img src="https://user-images.githubusercontent.com/46392391/81963296-85783400-9632-11ea-9de7-b1a6257d963a.jpeg" width="250">
+<img src="https://user-images.githubusercontent.com/46392391/83970673-8bd99300-a8f4-11ea-9f03-2e33c09f9699.jpeg" width="250">
 
 ### 4. Contact Us
 Users can reach out to the farm with any queries or doubts they have.
 
-<img src="https://user-images.githubusercontent.com/46392391/81961986-b9525a00-9630-11ea-826c-b0f1cef803fc.jpeg" width="250">
+<img src="https://user-images.githubusercontent.com/46392391/83970655-74020f00-a8f4-11ea-9082-f16052ce9247.jpeg" width="250">
 
